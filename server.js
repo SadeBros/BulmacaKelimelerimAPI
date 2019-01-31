@@ -88,11 +88,10 @@ app.get('/api/questions', (req,res) => {
 
 
 // http://localhost:3000/api/add
-// API'ye göndereceğin JSON formatlı veri formatı;
 /* 
 {
-	"key":"kelimeadı",
-	"val":"sorusu"
+	"key":"word",
+	"val":"question"
 }
 */
 app.post('/api/add', (req,res) => {
